@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./dist/main.css">
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://wa.me/55(aqui seu numero com ddd | tudo junto)?text=Adorei%20seu%20artigo" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+      z-index:1000;" target="_blank">
+    <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+    </a> -->
+
+    <title>Mimos Personalizados</title>
+</head>
+<body>
+ <header class="begin">
+     <div>
+    <img class="beginImg" src="./img/logo.png" alt="borboleta">
+    
+</div>
+    <h1 class="titleOne">Mimos <p class="personal">Personalizados</p> </h1>
+    <div class="headerMenu open-modal">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+<!-- //Modal/////////////////////////////////////////////////////////////////////////////// -->
+    <dialog class="modal">
+<aside class="a">
+    <div class="footerOrganize">
+        <div>
+        <ul class="footerColumn">
+            <li class="products" id="productsColor">Produtos</li>
+            <li> <a href="#caneca"> Canecas </a></li>
+            <li><a href="#agenda"> Agendas e planners </a></li>
+            <li><a href="#brinde"> Brindes </a></li>
+        </ul>
+    </div>
+        <div>
+        <ul class="footerColumn footerColumn2">
+            <li><a href="#squeeze"> Squeezes e garrafas </a></li>
+            <li><a href="#papelaria"> Papelaria </a></li>
+            <li><a href="#convite"> Convites </a></li>
+            <li><a href="#camiseta"> Camisetas, almofadas e toalhinhas </a></li>
+            <li><a href="#mdf"> MDF </a></li>
+        </ul>
+    </div>
+       
+    </div>
+
+     <div>
+        <ul class="socialMedia modalMedia">
+            <li class="socialTitle modalTitle" id="socialColor">Redes sociais</li>
+            <div class="socialOrganize">
+            <li><a href="https://www.instagram.com/mimos.personaliza" target="_blank">
+                <img src="./img/instagram.png" alt="Instagram">
+            </a></li>
+            <li><a href="https://wa.me/5531985693313" target="_blank">
+                <img src="./img/whatsapp.png" alt="whatsapp">
+            </a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100074882887218" target="_blank">
+                <img src="./img/facebook.png" alt="Facebook">
+            </a></li>
+        </div>
+        </ul>
+    </div>
+    <div class="delivery">Entregas: Fazemos entregas dentro de Itabirito aos sábados, com cobrança de 
+        taxas.Ou você pode retirar no nosso atelier em qualquer dia da semana.</div>
+<button class="close-modal">X</button> 
+</aside>
+</dialog>
+
+ </header>  
+ <div id="janelaModal">
+    <span id="btFechar">X</span>
+    <img id="imgModal">
+</div>
+<div id="contactInitial">
+   
+    <div class="socialOrganize">
+        <p class="socialTitle titleSocial">Redes Sociais:</p>
+        <li><a href="https://www.instagram.com/mimos.personaliza" target="_blank">
+            <img src="./img/instagram.png" alt="Instagram">
+        </a></li>
+        <li><a href="https://wa.me/5531985693313" target="_blank">
+            <img src="./img/whatsapp.png" alt="whatsapp">
+        </a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100074882887218" target="_blank">
+            <img src="./img/facebook.png" alt="Facebook">
+        </a></li>
+    </div>
+</div>
+
+<a class="whats" href="https://wa.me/5531985693313" target="_blank">
+    <img src="./img/whats.png" alt="whatsapp">
+</a>
+<section id="caneca" class="sectionCaneca">
+    <div class="backFirst ">
+    <img class="" src="./img/canecas/canecaCer2.png" alt="caneca">
+</div>
+
+<div class="textCaneca">
+   <h1 class="title1">Canecas <span class="personal1">Personalizadas</span></h1>
+    <p class="textCanecaTwo">As canecas da Mimos Personalizados 
+        são de ótima qualidade, pensadas 
+        especialmente para os nossos clientes.
+        Fazemos as estampas de acordo com 
+        a escolha do cliente, com cores e tipos
+        variados. Está em dúvida de qual 
+        escolher? Temos vários modelos para
+        te inspirar!</p>
+</div>   
+</section>
+<aside class="mug">
+    <div class="one card">
+        <img class="mugCer"  onclick="clique('./img/canecas/canecaCer3.png')" src="./img/canecas/canecaCer3.png" alt="caneca de cerâmica">
+        <p>Caneca de cerâmica</p>
+    </div>
+    <div class="two card">
+        <img class="mugJat" onclick="clique('./img/canecas/canecaVidroJat.png')" src="./img/canecas/canecaVidroJat.png" alt="caneca de vidro jateado">
+        <p>Caneca de vidro jateado</p>
+    </div>
+    <div class="three card">
+        <img class="mugAcri" onclick="clique('./img/canecas/canecaAcrilico2.png')" src="./img/canecas/canecaAcrilico2.png" alt="caneca de acrílico">
+        <p>Caneca de acrílico</p>
+    </div>
+    <div class="four card">
+        <img class="mugAlum" onclick="clique('./img/canecas/canecaAlum.png')" src="./img/canecas/canecaAlum.png" alt="caneca de alumínio">
+        <p>Caneca de alumínio</p>
+    </div>
+    <div class="five card">
+        <img class="mugPolim" onclick="clique('./img/canecas/canecaPolim.png')" src="./img/canecas/canecaPolim.png" alt="caneca de polímero">
+        <p>Caneca de polímero</p>
+    </div>
+    <div class="six card">
+        <img class="mugTerm" onclick="clique('./img/canecas/canecaSemiterm.png')" src="./img/canecas/canecaSemiterm.png" alt="caneca semitérmica">
+        <p>Caneca semitérmica e térmica</p>
+    </div>
+  
+</aside>
+
+<section id="agenda" class="sectionPlanner">
+    <div class="backFirst6">
+    <img src="./img/agendas/plannerCapa.png" alt="planner">
+</div>
+<div class="textCaneca">
+    <h1 class="titlePlanner">Agendas e planners<p class="personalOne">Personalizados</p> </h1>
+    <p class="textCanecaTwo">Temos diversas opções de agendas e planners: agenda personalizada sem miolo
+        permanente, planner com miolo personalizado de acordo com a necessidade do cliente, 
+        miolo de caderno pautado, além de bloquinhos. O que você precisar e imaginar, nós da Mimos
+        Personalizados temos para te atender.
+    </p>
+</div>   
+</section>
+<aside class="slidePlanner">
+<div class="slideshow-container one4">
+    <div class="mySlides fade card2">
+        <div class="numbertext">1 / 4</div>
+        <img class="slideOne" onclick="clique('./img/agendas/plannerCapa.png')" src="./img/agendas/plannerCapa.png" alt="Planner">
+        <div class="text">Planner</div>
+    </div>
+    <div class="mySlides fade card2">
+        <div class="numbertext">2 / 4</div>
+        <img onclick="clique('./img/agendas/agendaDireito.png')" src="./img/agendas/agendaDireito.png" alt="Agenda de direito">
+        <div class="text">Agenda de direito</div>
+   
+    </div>
+    <div class="mySlides fade card2">
+        <div class="numbertext">3 / 4</div>
+        <img onclick="clique('./img/agendas/agendaNail.png')" src="./img/agendas/agendaNail.png" alt="Agenda de Nail art">
+        <div class="text">Agenda de Nail art</div>
+    </div>
+    
+    <div class="mySlides fade card2">
+        <div class="numbertext">4 / 4</div>
+        <img onclick="clique('./img/agendas/agendaPsic.png')"  src="./img/agendas/agendaPsic.png" alt="Agenda de psicologia">
+        <div class="text" >Agenda de psicologia</div>
+    </div>
+
+   <div class="prevNext">
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<div class="dotSlide">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+</div>
+
+
+
+<div class="slideshow-container2 slide2 two4">
+
+    <div class="mySlides2 fade card2">
+        <div class="numbertext">1 / 4</div>
+        <img onclick="clique('./img/agendas/plannerProfissao.png')" src="./img/agendas/plannerProfissao.png" alt="Planner de profissão">
+        <div class="text">Planner de profissão</div>
+    </div>
+    <div class="mySlides2 fade card2">
+        <div class="numbertext">2 / 4</div>
+        <img onclick="clique('./img/agendas/plannerProfissao2.png')" src="./img/agendas/plannerProfissao2.png" alt="Miolo do planner">
+        <div class="text">Miolo do planner</div>
+   
+    </div>
+    <div class="mySlides2 fade card2">
+        <div class="numbertext">3 / 4</div>
+        <img onclick="clique('./img/agendas/plannerProfissao3.png')" src="./img/agendas/plannerProfissao3.png" alt="Miolo do planner">
+        <div class="text">Miolo do planner</div>
+    </div>
+    
+    <div class="mySlides2 fade card2">
+        <div class="numbertext">4 / 4</div>
+        <img onclick="clique('./img/agendas/plannerProfissao4.png')" src="./img/agendas/plannerProfissao4.png" alt="Miolo do planner">
+        <div class="text" >Miolo do planner</div>
+    </div>
+    <div class="prevNext">
+  <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+</div>
+<div class="dotSlide">
+    <span class="dot2" onclick="currentSlide2(1)"></span>
+    <span class="dot2" onclick="currentSlide2(2)"></span>
+    <span class="dot2" onclick="currentSlide2(3)"></span>
+    <span class="dot2" onclick="currentSlide2(4)"></span>
+</div>
+</div>
+
+
+
+<div class="slideshow-container3 slide3 three4">
+
+
+    <div class="mySlides3 fade card2">
+        <div class="numbertext">1 / 5</div>
+        <img onclick="clique('./img/agendas/agenda.png')" class="scheduleSlide" src="./img/agendas/agenda.png" alt="Planner de profissão">
+        <div class="text3">Planner de profissão</div>
+    </div>
+    <div class="mySlides3 fade card2">
+        <div class="numbertext">2 / 5</div>
+        <img onclick="clique('./img/agendas/agendaInterna.png')" src="./img/agendas/agendaInterna.png" alt="Planner de profissão">
+        <div class="text3">Planner de profissão</div>
+    </div>
+    <div class="mySlides3 fade card2">
+        <div class="numbertext">3 / 5</div>
+        <img onclick="clique('./img/agendas/agendaInterna2.png')"  src="./img/agendas/agendaInterna2.png" alt="Miolo do planner">
+        <div class="text3">Miolo do planner</div>
+   
+    </div>
+    <div class="mySlides3 fade card2">
+        <div class="numbertext">4 / 5</div>
+        <img onclick="clique('./img/agendas/agendaInterna3.png')" src="./img/agendas/agendaInterna3.png" alt="Miolo do planner">
+        <div class="text3">Miolo do planner</div>
+    </div>
+    
+    <div class="mySlides3 fade card2">
+        <div class="numbertext">5 / 5</div>
+        <img onclick="clique('./img/agendas/agendaInterna4.png')" src="./img/agendas/agendaInterna4.png" alt="Miolo do planner">
+        <div class="text3" >Miolo do planner</div>
+    </div>
+    <div class="prevNext">
+  <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+</div>
+<div class="dotSlide">
+    <span class="dot3" onclick="currentSlide3(1)"></span>
+    <span class="dot3" onclick="currentSlide3(2)"></span>
+    <span class="dot3" onclick="currentSlide3(3)"></span>
+    <span class="dot3" onclick="currentSlide3(4)"></span>
+    <span class="dot3" onclick="currentSlide3(5)"></span>
+</div>
+</div>
+</aside>
+
+<section id="brinde" class="sectionGift">
+    <div class="backFirst">
+    <img class="giftImg" src="./img/brindes/tacaGin.png" alt="taça de gin">
+</div>
+<div class="textCaneca">
+     <h1 class="title1">Brindes <span class="personal1">Personalizados</span></h1>
+    <p class="textCanecaTwo">Os brindes são vendidos no atacado a partir de 
+        10 unidades. São diversas opções: canetas, canecas em acrílico, copos long drinks,
+        taça(gin, champagne, vinho), chaveiros, calendários, crachás, balinhas personalizadas, cartões,
+        lembrancinhas de maternidade, tirantes de caneca(cordão), baldes. 
+        Traga a sua ideia, que nós personalizamos!
+    </p>
+</div>   
+</section>
+<aside class="gifts">
+    <div class="one2 card">
+        <img onclick="clique('./img/brindes/balde.png')" class="bucket" src="./img/brindes/balde.png" alt="balde">
+        <p>Balde</p>
+    </div>
+    <div class="two2 card">
+        <img onclick="clique('./img/brindes/balas.png')" class="candy" src="./img/brindes/balas.png" alt="balinhas">
+        <p>Balas personalizadas</p>
+    </div>
+    <div class="three2 card">
+        <img onclick="clique('./img/brindes/calendario.png')" class="calendar" src="./img/brindes/calendario.png" alt="calendário">
+        <p>Calendário</p>
+    </div>
+    <div class="four2 card">
+        <img onclick="clique('./img/brindes/canecaAcril.png')" class="giftMug" src="./img/brindes/canecaAcril.png" alt="caneca de acrílico">
+        <p>Caneca de acrílico</p>
+    </div>
+    <div class="five2 card">
+        <img onclick="clique('./img/brindes/cartoes.png')" class="cards" src="./img/brindes/cartoes.png" alt="cartões">
+        <p>Cartões personalizados</p>
+    </div>
+    <div class="six2 card">
+        <img onclick="clique('./img/brindes/chaveiro.png')" class="keychain" src="./img/brindes/chaveiro.png" alt="chaveiro">
+        <p>Chaveiro</p>
+    </div>
+    <div class="seven2 card">
+        <img onclick="clique('./img/brindes/cracha.png')" class="badge" src="./img/brindes/cracha.png" alt="crachá">
+        <p>Crachá</p>
+    </div>
+    <div class="eight2 card">
+        <img onclick="clique('./img/brindes/lembrancinha.png')" class="souvenir" src="./img/brindes/lembrancinha.png" alt="lembrancinha">
+        <p>Lembrancinha</p>
+    </div>
+    <div class="nine2 card">
+        <img onclick="clique('./img/brindes/longDrink.png')" class="longDrink" src="./img/brindes/longDrink.png" alt="long drink">
+        <p>Long drink</p>
+    </div>
+    <div class="ten2 card">
+        <img onclick="clique('./img/brindes/materiaisFesta.png')" class="partySupp" src="./img/brindes/materiaisFesta.png" alt="materiais para festa">
+        <p>Materiais para festa</p>
+    </div>
+    <div class="eleven2 card">
+        <img onclick="clique('./img/brindes/tacaChampagne.png')" class="champGlass" src="./img/brindes/tacaChampagne.png" alt="taça de champagne">
+        <p>Taça de champagne</p>
+    </div>
+    <div class="twelve2 card">
+        <img onclick="clique('./img/brindes/tacaGin.png')" class="ginGlass" src="./img/brindes/tacaGin.png" alt="taça de gin">
+        <p>Taça de gin</p>
+    </div>
+    <div class="thirteen2 card">
+        <img onclick="clique('./img/brindes/tirantesCaneca.png')" class="cupString" src="./img/brindes/tirantesCaneca.png" alt="tirantes de caneca">
+        <p>Tirantes de caneca</p>
+    </div>
+    <div class="fourteen2 card">
+        <img onclick="clique('./img/brindes/lembrancinhaMatern.png')" class="maternSouvenir" src="./img/brindes/lembrancinhaMatern.png" alt="lembrancinha de maternidade">
+        <p>Lembrancinha de maternidade</p>
+    </div>
+</aside>
+<section id="squeeze" class="sectionSqueeze">
+    <div class="backFirst1">
+    <img onclick="clique('./img/brindes/squeezeAcquabio.png')" class="squeezeImg" src="./img/squeeze/squeezeAcquabio.png" alt="squeeze">
+</div>
+<div class="textCaneca">
+    <h1 class="titleSqueeze">Squeezes e garrafas<p class="personalOne">Personalizados</p> </h1>
+    <p class="textCanecaTwo"> Aqui na Mimos, você escolhe o que personalizar e com qual estampa ou logo da sua
+        empresa. Uma das possibilidades para se destacar são as garrafas e squeezes personalizadas.
+    Opções de material das squeezes: acrílico, plástico, alumínio e térmicas. 
+         
+    </p>
+</div>   
+</section>
+<aside class="squeeze">
+    <div class="one3 card">
+        <img onclick="clique('./img/squeeze/squeezeAlum.png')" class="alumSqueeze" src="./img/squeeze/squeezeAlum.png" alt="squeeze de alumínio">
+        <p>Squeeze de alumínio</p>
+    </div>
+    <div class="two3 card">
+        <img onclick="clique('./img/squeeze/garrafa.png')" class="towelSqueeze" src="./img/squeeze/garrafa.png" alt="squeeze mosquetão com toalha">
+        <p>Squeeze mosquetão com toalha</p>
+    </div>
+    <div class="three3 card">
+        <img onclick="clique('./img/squeeze/garrafaTerm.png')" class="thermosBottle" src="./img/squeeze/garrafaTerm.png" alt="garrafa térmica">
+        <p>Garra térmica</p>
+    </div>
+    <div class="four3 card">
+        <img onclick="clique('./img/squeeze/squeezeAcquabio.png')" class="acquaSqueeze" src="./img/squeeze/squeezeAcquabio.png" alt="squeeze acquabio">
+        <p>Squeeze acquabio</p>
+    </div>
+    <div class="five3 card">
+        <img onclick="clique('./img/squeeze/squeezeEscolar.png')" class="scholarSqueeze" src="./img/squeeze/squeezeEscolar.png" alt="squeeze escolar">
+        <p>Squeeze escolar</p>
+    </div>
+  
+</aside>
+<section id="papelaria" class="sectionPaper">
+    <div class="backFirst2">
+    <img class="squeezeImg" src="./img/papelaria_personalizada/caixaNiver.png" alt="squeeze">
+</div>
+<div class="textCaneca">
+    <!-- <h1 class="titleS">Papelaria<p class="personalOne">Personalizada</p> </h1> -->
+    <h1 class="title1">Papelaria <span class="personal1">Personalizada</span> </h1>
+    <p class="textCanecaTwo">Sempre que você precisar de algum item de papelaria com a sua marca, 
+        cor preferida, desenho ou nome, pode contar com a Mimos Personalizados. Aqui você escolhe 
+        todos os detalhes  do seu produto. Contamos com diversas opções, dentre elas: caixas para 
+        decoração de festa, topo de bolo, etiquetas escolares, adesivos personalizados, tags entre
+        outros.    
+    </p>
+</div>   
+</section>
+<aside class="paperCard">
+    <div class="one3 card">
+        <img onclick="clique('./img/papelaria_personalizada/cartaoConvite.png')" class="inviteCard" src="./img/papelaria_personalizada/cartaoConvite.png" alt="cartão de convite">
+        <p>Cartão de convite</p>
+    </div>
+    <div class="two3 card">
+        <img onclick="clique('./img/papelaria_personalizada/caixaNiver.png')" class="birthBox" src="./img/papelaria_personalizada/caixaNiver.png" alt="caixinha de aniversário">
+        <p>Caixinha de aniversário</p>
+    </div>
+    <div class="three3 card">
+        <img onclick="clique('./img/papelaria_personalizada/adesivos.png')" class="stickerCard" src="./img/papelaria_personalizada/adesivos.png" alt="adesivos">
+        <p>Adesivos</p>
+    </div>
+    <div class="four3 card">
+        <img onclick="clique('./img/papelaria_personalizada/itensNiver2.png')" class="birthItens" src="./img/papelaria_personalizada/itensNiver2.png" alt="itens de aniversário">
+        <p>Itens de aniversário</p>
+    </div>
+    <div class="five3 card">
+        <img onclick="clique('./img/papelaria_personalizada/topoBolo.png')" class="cakeTop" src="./img/papelaria_personalizada/topoBolo.png" alt="topo de bolo">
+        <p>Topo de bolo</p>
+    </div>
+    <div class="six3 card">
+        <img onclick="clique('./img/papelaria_personalizada/lembrancinhaNiver.png')" class="birthSouvenir" src="./img/papelaria_personalizada/lembrancinhaNiver.png" alt="lembrancinha de aniversário">
+        <p>Lembrancinha de aniversário</p>
+    </div>
+  
+</aside>
+
+<section id="convite" class="sectionInvite">
+    <div class="backFirst3">
+    <img class="squeezeImg" src="./img/convitePersonalizado/canecaConvite.png" alt="caneca convite">
+</div>
+<div class="textCaneca">
+    <!-- <h1 class="titleIvite">Convites<p class="personalOne">Personalizados</p> </h1> -->
+    <h1 class="title1">Convites <span class="personal1">Personalizados</span> </h1>
+    <p class="textCanecaTwo">Os convites personalizados da Mimos, podem ser de diversos tipos
+        de materiais e formatos. Temos os tradicionais cartões, além de: canecas, 
+        caixinhas, azulejos, entre outros. 
+    </p>
+</div>   
+</section>
+<aside class="invite">
+    <div class="one3 card">
+        <img onclick="clique('./img/convitePersonalizado/caixaConvite.png')" class="inviteBox" src="./img/convitePersonalizado/caixaConvite.png" alt="caixa de convite">
+        <p>Caixa de convite</p>
+    </div>
+    <div class="two3 card">
+        <img onclick="clique('./img/convitePersonalizado/copoConvite.png')" class="inviteGlass" src="./img/convitePersonalizado/copoConvite.png" alt="copo convite">
+        <p>Copo convite</p>
+    </div>
+    <div class="three3 card">
+        <img onclick="clique('./img/convitePersonalizado/canecaConvite.png')" class="inviteMug" src="./img/convitePersonalizado/canecaConvite.png" alt="Caneca convite">
+        <p>Caneca convite</p>
+    </div>
+    <div class="four3 card">
+        <img onclick="clique('./img/convitePersonalizado/cartaoConvite.png')" class="inviteCardd" src="./img/convitePersonalizado/cartaoConvite.png" alt="cartão de convite">
+        <p>Cartão de convite</p>
+    </div>
+    <div class="five3 card">
+        <img onclick="clique('./img/convitePersonalizado/azulejoConvite.png')" class="inviteTile" src="./img/convitePersonalizado/azulejoConvite.png" alt="azulejo convite">
+        <p>Azulejo convite</p>
+    </div>
+</aside>
+
+
+<section id="camiseta" class="sectionShirt">
+    <div class="backFirst4">
+    <img class="squeezeImg" src="./img/camisetas/homenagem.png" alt="camisa homenagem">
+</div>
+<div class="textCaneca">
+    <!-- <h1 class="titleShirt">Camisetas, almofadas e toalhinhas<p class="personalTwo">Personalizadas</p> </h1> -->
+    <h1 class="title1 titleShirt2">Camisetas, almofadas e toalhinhas <span class="personal1">Personalizadas</span></h1>
+    <p class="textCanecaTwo">Pensou em uma camiseta com uma estampa personalizada? Nós fazemos com 
+        estampas de profissões, pai e filho, mãe e filho, uniformes, homenagens como: dia dos pais, dia das
+        mães, dia dos namorados, datas comemorativas, além dos bodys infantis. Fazemos também almofadas
+        personalizadas, toalhinhas escolares, dentre outas opções de personalizados.
+    </p>
+</div>   
+</section>
+<aside class="shirt">
+    <div class="one3 card">
+        <img onclick="clique('./img/camisetas/bodyInfantil.png')" class="shirtBody" src="./img/camisetas/bodyInfantil.png" alt="body infantil">
+        <p>Body infantil</p>
+    </div>
+    <div class="two3 card">
+        <img onclick="clique('./img/camisetas/almofada.png')" class="shirtCushion" src="./img/camisetas/almofada.png" alt="almofada">
+        <p>Almofada</p>
+    </div>
+    <div class="three3 card">
+        <img onclick="clique('./img/camisetas/homenagem.png')" class="shirtTribute" src="./img/camisetas/homenagem.png" alt="Camisa homenagem">
+        <p>Camisa de homenagem</p>
+    </div>
+    <div class="four3 card">
+        <img onclick="clique('./img/camisetas/paiFilho.png')" class="shirtDaddy" src="./img/camisetas/paiFilho.png" alt="camisa pai e filho">
+        <p>Camisa pai e filho</p>
+    </div>
+    <div class="five3 card">
+        <img onclick="clique('./img/camisetas/uniforme.png')" class="shirtUniform" src="./img/camisetas/uniforme.png" alt="uniforme">
+        <p>Uniforme</p>
+    </div>
+    <div class="five3 card">
+        <img onclick="clique('./img/camisetas/toalhinha.png')" class="shirtTowel" src="./img/camisetas/toalhinha.png" alt="toalhinha escolar">
+        <p>Toalhinha escolar</p>
+    </div>
+</aside>
+
+<section  id="mdf" class="sectionMDF">
+    <div class="backFirst5">
+    <img class="squeezeImg" src="./img/mdf/caixa.png" alt="caixa em MDF">
+</div>
+<div class="textCaneca">
+    <!-- <h1 class="titleIvite">MDF<p class="personalOne">Personalizado</p> </h1> -->
+    <h1 class="title1">MDF <span class="personal1">Personalizado</span> </h1>
+    <p class="textCanecaTwo">O MDF é um material versátil que nos dá diversas opções.
+        Aqui fazemos: caixas de diversos tipos e utilidades, porta-treco, porta-celular,
+        porta-lápis, quadros(mapa estrelar, fotos), quebra-cabeças, árvore genealógica, chaveiro, entre
+        outros.
+    </p>
+</div>   
+</section>
+<aside class="mdf">
+    <div class="one3 card">
+        <img onclick="clique('./img/mdf/caixa.png')" class="mdfBox" src="./img/mdf/caixa.png" alt="caixa em MDF">
+        <p>Caixa em MDF</p>
+    </div>
+    <div class="two3 card">
+        <img onclick="clique('./img/mdf/portaCelular.png')" class="mdfPhone" src="./img/mdf/portaCelular.png" alt="porta-celular em MDF">
+        <p>Porta-celular em MDF</p>
+    </div>
+    <div class="three3 card">
+        <img onclick="clique('./img/mdf/quebraCabeças.png')" class="mdfPuzzle" src="./img/mdf/quebraCabeças.png" alt="quebra-cabeças em MDF">
+        <p class="puzzle">Quebra-cabeças em MDF</p>
+    </div>
+    <div class="four3 card">
+        <img onclick="clique('./img/mdf/quadro2.png')" class="mdfPaint" src="./img/mdf/quadro2.png" alt="quadro em MDF">
+        <p>Quadro em MDF</p>
+    </div>
+</aside>
+<footer class="footerSection">
+    <!-- <h3 class="titleFooter footerSubtitle">Mimos<p class="personalOne">Personalizados</p></h3> -->
+    <h2 class="titleFooter title1">Mimos <span class="personal1">Personalizados</span></h2>
+    <div class="footerOrganize">
+    <div>
+    <ul class="footerColumn">
+        <li class="products">Produtos</li>
+        <li> <a href="#caneca"> Canecas </a></li>
+        <li><a href="#agenda"> Agendas e planners </a></li>
+        <li><a href="#brinde"> Brindes </a></li>
+    </ul>
+</div>
+    <div>
+    <ul class="footerColumn footerColumn2">
+        <li><a href="#squeeze"> Squeezes e garrafas </a></li>
+        <li><a href="#papelaria"> Papelaria </a></li>
+        <li><a href="#convite"> Convites </a></li>
+        <li><a href="#camiseta"> Camisetas, almofadas e toalhinhas </a></li>
+        <li><a href="#mdf"> MDF </a></li>
+    </ul>
+</div>
+    <div>
+    <ul class="socialMedia">
+        <li class="socialTitle">Redes sociais</li>
+        <div class="socialOrganize">
+        <li><a href="https://www.instagram.com/mimos.personaliza" target="_blank">
+            <img src="./img/instagram.png" alt="Instagram">
+        </a></li>
+        <li><a href="https://wa.me/5531985693313" target="_blank">
+            <img src="./img/whatsapp.png" alt="whatsapp">
+        </a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100074882887218" target="_blank">
+            <img src="./img/facebook.png" alt="Facebook">
+        </a></li>
+    </div>
+    </ul>
+</div>
+</div>
+<div class="delivery">Entregas: Fazemos entregas dentro de Itabirito aos sábados, com cobrança de 
+    taxas.Ou você pode retirar no nosso atelier em qualquer dia da semana.</div>
+</footer>
+
+<!-- <div class="img-container">
+    <img src="./img/brindes/cartoes.png">
+ </div> -->
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
